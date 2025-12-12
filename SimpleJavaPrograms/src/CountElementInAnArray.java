@@ -1,3 +1,5 @@
+package src;
+
 public class CountElementInAnArray
 {
   static int countIntegers(int[] array)

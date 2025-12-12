@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import src.*;
 
 public class Main
 {
@@ -9,7 +10,7 @@ public class Main
     while (true)
     {
       System.out.println("");
-      System.out.println("JavaSimplePrograms");
+      System.out.println("SimpleJavaPrograms");
       System.out.println("");
       System.out.println("1.SimpleAirthmaticOperations");
       System.out.println("2.SwapTwoNumbers");
@@ -19,7 +20,8 @@ public class Main
       System.out.println("6.PrintFibonacciSeries");
       System.out.println("7.PrintNumbersUsingRecursion");
       System.out.println("8.PrintMultiplicationTable");
-      System.out.println("Select option (1/2/3)");
+      System.out.println("");
+      System.out.println("Select option (1/2/3/4/5/6/7/8/)");
       String choice = scan.nextLine();
 
       switch (choice)
@@ -30,8 +32,17 @@ public class Main
                  break;
         case "3":returnCopyOfElementsInArrays.Main();
                  break;
-        case "4":reverseString.Main();
+        case "4":reverseIntegerAndString.Main();
                  break;
+        case "5":CountElementInAnArray.Main();
+                 break;
+        case "6":PrintFibonacciSeries.Main();
+                 break;
+        case "7":PrintNumbersUsingRecursion.Main();
+                 break;
+        case "8":PrintMultiplicationTable.Main();
+                 break;
+        //case "9":
         default:System.out.println("Enter valid choice");
       }
     }

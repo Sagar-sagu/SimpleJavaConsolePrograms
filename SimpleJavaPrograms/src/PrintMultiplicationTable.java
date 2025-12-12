@@ -1,6 +1,8 @@
+package src;
+
 import java.util.Scanner;
 
-public class MultiplicationTable
+public class PrintMultiplicationTable
 {
   static void returnMultiplyValue(int num)
   {

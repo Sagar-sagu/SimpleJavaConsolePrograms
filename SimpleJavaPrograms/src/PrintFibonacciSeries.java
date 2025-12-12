@@ -1,6 +1,8 @@
+package src;
+
 import java.util.Scanner;
 
-public class FibonacciSeries
+public class PrintFibonacciSeries
 {
 
     static void FibonacciWithRecursion(int increment,int target,int var1,int var2,int sum)

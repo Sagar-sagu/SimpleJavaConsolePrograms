@@ -1,6 +1,8 @@
+package src;
+
 import java.util.Scanner;
 
-class reverseString
+class reverseIntegerAndString
 {
     public static void Main()
     {
