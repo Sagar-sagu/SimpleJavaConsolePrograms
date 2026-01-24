@@ -10,13 +10,13 @@ public class Main
     while (true)
     {
       System.out.println("");
-      System.out.println("SimpleJavaPrograms");
+      System.out.println("Simple Java Programs");
       System.out.println("");
       System.out.println("1.Simple Airthmatic Operations");
       System.out.println("2.Swap Two Numbers");
       System.out.println("3.return Copy Of Elements In Arrays");
       System.out.println("4.reverse Integer And String");
-      System.out.println("5.Count Element In AnArray");
+      System.out.println("5.Count Element In An Array");
       System.out.println("6.Print Fibonacci Series");
       System.out.println("7.Print Numbers Using Recursion");
       System.out.println("8.Print Multiplication Table");
